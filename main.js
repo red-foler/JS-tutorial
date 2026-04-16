@@ -94,17 +94,18 @@
                                                                                         //Array methods 🟢🟢🟢
                                                                                         //массивы
                                                                
-const studentsName = ['Max', 'Vlad', 'Elena']; 
-const students = [{
-    name: 'Max',
-    age:23
-},{
-    name: 'Vlad',
-    age:22
-},{
-    name: 'Elena',
-    age:20
-}]                                                                   
+// const studentsName = ['Max', 'Vlad', 'Elena']; 
+// const students = [{
+//     name: 'Max',
+//     age:23
+// },{
+//     name: 'Vlad',
+//     age:22
+// },{
+//     name: 'Elena',
+//     age:20
+// }]                      
+                                             
 //🟡🟡     просто вывод списка                                      //🔴\/тут добавляется штука, выводящая массив в стобик
 // console.log(studentsName.map((name, index) => `${index +1}. ${name}`).join('\n'));
 //🟡🟡  фильтрация списка по условию
@@ -120,4 +121,5 @@ const students = [{
 // указать одно число, то отрезок будет считаться от него и до конца массива
 // console.log(students.slice(0, 1))
 //🟡🟡     поиск конкретного элемента
-console.log(students.find(student => student.name === 'Max'))
+// console.log(students.find(student => student.name === 'Max'))
+//🟡🟡     есть еще какой-то reduce, инструмент для например подсчета общей суммы корзины
