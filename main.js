@@ -93,10 +93,7 @@
 
                                                                                         //Array methods 🟢🟢🟢
                                                                                         //массивы
-//🟡🟡                                                                      
-// const studentsName = ['Max', 'Vlad', 'Elena'];                          //🔴\/тут добавляется штука, выводящая массив в стобик
-// console.log(studentsName.map((name, index) => `${index +1}. ${name}`).join('\n'));
-//🟡🟡 
+                                                               
 const studentsName = ['Max', 'Vlad', 'Elena']; 
 const students = [{
     name: 'Max',
@@ -107,6 +104,20 @@ const students = [{
 },{
     name: 'Elena',
     age:20
-}] 
-console.log(students.filter((student) => student.age > 20).map(student => student.name).join('\n'));  
-
+}]                                                                   
+//🟡🟡     просто вывод списка                                      //🔴\/тут добавляется штука, выводящая массив в стобик
+// console.log(studentsName.map((name, index) => `${index +1}. ${name}`).join('\n'));
+//🟡🟡  фильтрация списка по условию
+// console.log(students.filter((student) => student.age > 20).map(student => student.name).join('\n'));  
+// 🟡🟡  варианты добавления новых значений в массив
+// students.push({//🔴тут вместо push можно написать unshift,тогда элемент добавится в начало списка
+//     name: 'Bob',
+//     age:25
+// })
+// console.log(students)
+//🟡🟡 slice, вводится промежуток от какого до какого элемента внутри массива нужно сделать "скриншот",
+//именно он, потому - что сам массив от этого не меняясь дает выволить данные, если в "координатах"
+// указать одно число, то отрезок будет считаться от него и до конца массива
+// console.log(students.slice(0, 1))
+//🟡🟡     поиск конкретного элемента
+console.log(students.find(student => student.name === 'Max'))
