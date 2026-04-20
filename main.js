@@ -138,3 +138,80 @@
 //🟡🟡     поиск конкретного элемента
 // console.log(students.find(student => student.name === 'Max'))
 //🟡🟡     есть еще какой-то reduce, инструмент для например подсчета общей суммы корзины
+//🟡🟡
+// const nums = [10, 21, 13, 40, 55, 60]; 
+// const chetNums = nums.filter((nums) => nums % 2 ===0).map(nums => nums*2); 
+// console.log(chetNums)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶    свободная практика
+
+// let hourSalary = +prompt('введите свою почасовую оплату в долларах:');
+// let workHours = +prompt('сколько часов вы отработали в этом месяце?:');
+
+// function cleanMoney(workHours, hourSalary){
+//     let dirtyMoney = hourSalary * workHours;
+//     if(workHours >= 160){
+//         dirtyMoney = dirtyMoney * 1.2
+//     };
+//     return dirtyMoney*0.87;
+// };
+// alert(cleanMoney(workHours, hourSalary)+'$');
